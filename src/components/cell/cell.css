@@ -1,0 +1,36 @@
+.snk__cell {
+    width: 160px; 
+    height: 160px; 
+    background: #BD9000;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 4px;
+    font-size: large;
+   
+   
+    /* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    /* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+.snk__cell-text {
+    text-align: center;
+    transform: rotate(45deg);
+    position: relative;
+    right: 0px;
+    top: 50px;
+    font-family: var(--font-family);
+    font-size: 17.5px;
+    line-height: 25px;
+
+    -webkit-text-stroke: .05px white; 
+  }

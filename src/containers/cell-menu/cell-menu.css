@@ -1,0 +1,34 @@
+.snk__cell-menu {
+
+    flex-direction: column;
+
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+.snk__cell-menu-contents_firstRow {
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    grid-gap: 5rem;
+    column-gap: 4.5rem;
+}
+
+.snk__cell-menu-contents_secondRow {
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    grid-gap: 5rem;
+    column-gap: 4.5rem;
+
+    margin-left: 7.25rem;
+    margin-top: -2.75rem;
+}
+
+.snk__cell-menu-contents_thirdRow {
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    grid-gap: 5rem;
+    column-gap: 4.5rem;
+
+    margin-left: 14.5rem;
+    margin-top: -2.75rem;
+}

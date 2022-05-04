@@ -24,3 +24,7 @@
       /* global 94%+ browsers support */
       background:linear-gradient(180deg, rgba(13, 8, 5, 1) 0%, rgba(238, 115, 7, 1) 100%);
 }
+
+.section__padding {
+  padding: 0rem 8rem;
+}

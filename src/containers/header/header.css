@@ -13,9 +13,10 @@
 
 .snk__header-content h1 {
     font-family: var(--font-family);
-
+    color: var(--color-heading);
 }
 
 .snk__header-content hr {
-    
+    border: 0;
+	border-top: 10px solid #C8BCBA;
 }

@@ -15,4 +15,7 @@ code {
 :root {
   --font-family: 'Sea_Gardens'; 
   src: local('Sea_Gardens'), url(../public/fonts/SEA_GARDENS.ttf) format('truetype');
+
+  --color-heading: #F8F8F6;
+  --color-cell: #BD9000;
 }
