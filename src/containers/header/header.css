@@ -1,0 +1,21 @@
+.snk__header {
+    display: flex;
+    flex-direction: row;
+}
+
+.snk__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    margin-top: .5rem;
+}
+
+.snk__header-content h1 {
+    font-family: var(--font-family);
+
+}
+
+.snk__header-content hr {
+    
+}

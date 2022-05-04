@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --font-family: 'Sea_Gardens'; 
+  src: local('Sea_Gardens'), url(../public/fonts/SEA_GARDENS.ttf) format('truetype');
+}
