@@ -1,0 +1,25 @@
+.snk-dialog {
+    justify-content: center;
+}
+
+.snk__dialog-container {
+    align-items: center;
+    border-top: 9px;
+    border-style: solid;
+    border-color: #0b0807;
+
+    margin: 0.25rem 2rem 2rem 0rem;
+}
+
+.snk__dialog-container_dialog-box {
+    background-color: #0b0807;
+    opacity: .5;
+}
+
+.snk__dialog-container_dialog-box p {
+    color: #d4c5a5;
+    text-align: center;
+    font-size: 30px;
+    opacity: 1;
+    padding: .5rem;
+}
