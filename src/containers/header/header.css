@@ -1,22 +1,23 @@
 .snk__header {
-    display: flex;
-    flex-direction: row;
+
 }
 
 .snk__header-content {
-    flex: 1;
-    display: flex;
-    justify-content: center;
 
-    margin-top: .5rem;
+    margin-top: 0rem;
 }
 
 .snk__header-content h1 {
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
     font-family: var(--font-family);
     color: var(--color-heading);
+
+    margin-bottom: -.5rem;
 }
 
 .snk__header-content hr {
-    border: 0;
-	border-top: 10px solid #C8BCBA;
+    border-width: 10px;
+	border: 20px solid #C8BCBA;
 }

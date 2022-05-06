@@ -1,0 +1,28 @@
+.snk__modeSelect {
+    position: absolute;
+
+
+}
+
+.snk__modeSelect__cell {
+    margin-left: 33.25rem;
+    margin-top: -32.25rem;
+    position: absolute;
+    transform: scale(1.3);
+    z-index: 9;
+}
+
+.snk__modeSelect__cell-text {
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    font-family: var(--font-family);
+
+    margin-top: -7rem;
+}
+
+.snk__modeSelect__cell-options {
+    position: absolute;
+    z-index: 4;
+    margin-top: -33rem;
+}

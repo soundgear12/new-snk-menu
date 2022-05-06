@@ -1,0 +1,29 @@
+.snk__options {
+    justify-content: center;
+    position: absolute;
+}
+
+.snk__options__select {
+    align-items: center;
+
+
+}
+
+.snk__options__select_bar {
+    justify-content: center;
+    width: 100vw;
+    z-index: 4;
+    height: 3.5rem;
+    background: -moz-linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,0,0,0) 92%, rgba(255,0,0,0) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,0,0,0) 92%, rgba(255,0,0,0) 100%);
+    background: -o-linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,0,0,0) 92%, rgba(255,0,0,0) 100%);
+    background: -ms-linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,0,0,0) 92%, rgba(255,0,0,0) 100%);
+    background: linear-gradient(270deg, rgba(255,0,0,1) 0%, rgba(255,0,0,0) 92%, rgba(255,0,0,0) 100%);
+}
+
+.snk__options__select_bar p {
+    font-family: var(--font-family);
+    margin-left: 85rem;
+    color: white;
+    font-size: 50px;
+}

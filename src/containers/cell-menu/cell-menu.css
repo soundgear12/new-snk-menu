@@ -1,9 +1,7 @@
 .snk__cell-menu {
-
     flex-direction: column;
-
-    margin-top: 5rem;
-    margin-left: 8rem;
+    margin-top: 3rem;
+    margin-left: 18rem;
 }
 
 .snk__cell-menu-contents_firstRow {
@@ -11,9 +9,11 @@
     grid-template-columns: 10rem 10rem 10rem;
     grid-gap: 5rem;
     column-gap: 4.5rem;
+
 }
 
 .snk__cell-menu-contents_secondRow {
+    z-index: 2;
     display: grid;
     grid-template-columns: 10rem 10rem 10rem;
     grid-gap: 5rem;

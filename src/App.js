@@ -1,6 +1,9 @@
 import React from 'react';
 import { Header, CellMenu, Dialog } from './containers';
 import './App.css';
+import ModeSelect from './components/mode-select/ModeSelect';
+
+export const SnkContext = React.createContext();
 
 const App = () => (
   <div className='App'>
@@ -9,7 +12,7 @@ const App = () => (
         <Header />
       </div>
       <CellMenu />
-      <Dialog />
+      <ModeSelect />
     </div>
   </div>
 );

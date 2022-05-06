@@ -3,11 +3,11 @@ import './header.css';
 
 const Header = () => {
   return (
-    <div className='snk__header section__padding'>
+    <div className='snk__header'>
       <div className='snk__header-content'>
         <h1>Mode Select</h1>
-        <hr></hr>
       </div>
+      <hr></hr>
         
     </div>
   )

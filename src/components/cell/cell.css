@@ -1,4 +1,6 @@
 .snk__cell {
+    z-index: 1;
+    position: relative;
     width: 160px; 
     height: 160px; 
     background: #BD9000;
@@ -8,7 +10,6 @@
     font-size: large;
     cursor: pointer;
    
-   
     /* Rotate */
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -16,11 +17,25 @@
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
     /* Rotate Origin */
-    -webkit-transform-origin: 0 100%;
-    -moz-transform-origin: 0 100%;
-    -ms-transform-origin: 0 100%;
-    -o-transform-origin: 0 100%;
-    transform-origin: 0 100%;
+
+}
+
+.snk__cell img {
+    justify-content: flex-start;
+    width: 100%;
+    
+
+    transform: rotate(45deg) scale(.8);
+    margin-top: 0rem;
+    margin-left: 0rem;
+}
+
+.snk__cell:hover {
+    background: #FFC80C;
+    position: relative;
+    outline-color: #C6CACA;
+    z-index: 2;
+    transform: rotate(-45deg) scale(1.4);
 }
 
 .snk__cell-text {
@@ -35,3 +50,5 @@
 
     -webkit-text-stroke: .05px white; 
   }
+
+ 
